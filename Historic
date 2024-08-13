@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUNE City Historical PLaces</title>
+<style>
+  .my-class
+  {
+    font-size:50px;
+    color:#1E0F01;
+    padding: 5px;
+	opacity:0.6;
+  }
+  .center1
+  {
+    font-size:30px;
+    color:#6F4822;
+  }
+  .center2{
+    font-size:20px;
+    color:#532A01;
+  }
+  #myID{
+  border: 3px solid #D5F8F6;
+  }
+</style>
+</head>
+<body bgcolor="#FDDEBE">
+<h1 align="center" class="my-class" id="myID" title><i>History and Culture of Pune City</i></h1>
+<h2 align="left" id="myID" class="center1"><i>“A place with magnificant history”</h2>
+<p class="center2">Offering a complete package of rich culture and 
+ancient heritage, there are numerous historical places in Pune that 
+entice tourists of all ages and provide a perfect backdrop for 
+clicking pictures and selfies. From ancient forts, palaces, wadas 
+to famous temples to a war memorial, all of these heritage 
+monuments are impressive and boasts of their significance and 
+appeal.<br><br>
+All these historical monuments in Pune are marvellous and artistic 
+and have managed to preserve the bygone-era magic and proudly 
+exhibit the rich legacy that the city owns.</p>
+<hr>
+<h3 class="center1"  >The various historical sites in Pune are:</h3>
+<ol type="1)">
+  <li><b><ins>Sinhagad Fort</ins></b></li>
+  <br><br>
+  <img src="C:\Users\dell\Downloads\Sinhagad-fort.jpg_cf-webp_w-848_h-551"height="300" width="300" ><br>
+  <br>
+  <dt><b>Location</b>: Sinhagad Ghat Road, Thoptewadi, Maharashtra. </dt>
+  <dt><b>Price</b>: Rs, 20 per adult. </dt>
+  <dt><b>Timings</b>: Every day 9:00 am to 6:00 pm.</dt>
+  <dt><p>Located around 35 kilometers from Pune, this majestic 2000-year-old fort is one of the most important historical places in Pune. The fort has witnessed numerous battles like the 1670 battle of Sinhagad. Named after the saint Kaundinya, it has changed hands between Koli, Peshwa, and Mughal kings.
+It is located atop a plateau in the Sahyadri Mountains and houses the Kaundinya Eshwar Temple, some beautifully carved hidden caves, bastions, and tombs of Rajaram Chhatrapati and Tanaji Malusare. Don’t miss to see the majestic Pune and Kalyan Darwaza, a brewery, and bunkers. </p></dt>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15146.332223207159!2d73.73742365396026!3d18.366296476434727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc293e6861118d9%3A0xcbb4d589c7d4e90b!2sSinhagad%20Fort!5e0!3m2!1sen!2sin!4v1721967506985!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br><br>
+  <li><b><ins>Shaniwar Wada</ins></b></li>
+  <br><br>
+  <img src="C:\Users\dell\Downloads\Shaniwar-wada.jpg_cf-webp_w-848_h-551"height="300" width="300"><br>
+  <br>
+  <dt><b>Location</b>: Bajorao Road, Shaniwar Peth, Pune, Maharashtra. </dt>
+  <dt><b>Price</b>:
+  <ul type="circle">
+  <li>Indians – ₹ 5 per person </li>
+  <li>Foreign Nationals – ₹ 125 per person</li>
+</ul>  </dt>
+  <dt><b>Timings</b>: 08:00 am to 06:30 pm; every day</dt>
+  <dt><p>Symbols of Maratha pride and grandiosity, this is a 17th-century residential fort that was built by Peshwa Bajirao. Once you step inside, you are greeted with imposing architecture with rich mughal influences spread over 600 acres. it famous doors include Dilli Darwaza, Khidki Darwaza, Ganesh Darwaza and Mastani Darwaza, used by Bajiro's companion</p></dt>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2060364481104!2d73.85284587443051!3d18.51958916920572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e2226b7b11%3A0xa4bb8106175ca68b!2sShaniwar%20Wada!5e0!3m2!1sen!2sin!4v1721967772763!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br><br>
+  <li><b><ins>Aga Khan Palace</ins></b></li>
+  <br><br>
+  <img src="C:\Users\dell\Downloads\Aga-Kha.jpg_cf-webp_w-848_h-551"height="300" width="300"><br>
+  <br>
+  <dt><b>Location</b>:Gandhi National Memorial Society, Aga Khan Palace Road, Pune </dt>
+  <dt><b>Price</b>: 
+  <ul type="circle">
+  <li>Adults – ₹ 5 per person </li>
+  <li>Children – ₹ 2 per person</li>
+  <li>Foreign Nationals – ₹ 100 per person </li>
+</ul> </dt>
+  <dt><b>Timings</b>:09:00 am to 05:30 pm; every day</dt>
+  <dt><p>The palace is a testament to glorious architecture and will offer you a stunning visual treat. Built in the 19th century, the spectacular palace stands on sprawling lawns and boasts of five halls. Huge hallways and Italian arches feature throughout the structure. Apart from its structural beauty, there’s one more reason that firmly establishes this palace’s position among the historical places of Pune. The palace was used as a prison to lock up Mahatma Gandhi and other patriotic leaders during the country’s freedom struggle. Today, it serves as the headquarters of the Gandhi National Memorial Society.</dt></p> 
+  <br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.47551765937!2d73.9015388!3d18.5525887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1004ffe815b%3A0x9dcb9b9409cc7bde!2sAga%20Khan%20Palace!5e0!3m2!1sen!2sin!4v1722904666788!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br><br>
+  <li><b><ins>Lohagad Fort</ins></b></li>
+  <br><br>
+  <img src="C:\Users\dell\Downloads\Lohagad-fort.jpg_cf-webp_w-848_h-551"height="300" width="300"><br>
+  <br>
+  <dt><b>Location</b>: Near Lonavala in the Sahyadri region.  </dt>
+  <dt><b>Price</b>:No entry fee.  </dt>
+  <dt><b>Timings</b>:  Every day 9:00 am to 6:00 pm.</dt>
+  <dt><p>Lohagad Fort, being the power seat for the Nizam, Mughal, and Maratha dynasties, holds an important place in the country’s history. Located at a height of around 3500 ft. in the Malavali hill ranges, it is now a UNESCO protected site.
+
+It is famous for its impressive architecture and has massive gates like Ganesh Darwaza, Narayan Darwaza, Hanuman Darwaza, and Maha Darwaza. Don’t miss to see the beautiful wall carvings and the lush natural scenery around. </p></dt>
+  <br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.9691913503184!2d73.47437432757708!3d18.710197429267403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2a9e5ec73dc55%3A0x40175d3a5814b5d!2sLohagad%20Fort%2C%20Lohagad%20Trek%20Rd%2C%20Maharashtra%20410406!5e0!3m2!1sen!2sin!4v1722904776316!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br><br>
+  <li><b><ins> Vishrambaug Wada</ins></b></li>
+  <br><br>
+  <img src="C:\Users\dell\Downloads\vishrambaug-wada.jpg_cf-webp_w-848_h-551"height="300" width="300"><br>
+  <br>
+  <dt><b>Location</b>: RB Kumthekar Road, Perugate, Sadashiv Peth, Pune, Maharashtra. </dt>
+  <dt><b>Price</b>:  No entry fee </dt>
+  <dt><b>Timings</b>: N/A</dt>
+  <dt><p>Imagine a luxurious mansion that spreads over an area of 20,000 sq. ft. right in the heart of the city. This is Vishrambaug Wada for you! Built in the year 1807, Vishrambaug Wada was the residence of Peshwa Bajirao II. In its heydays, the property was no less than a palace in terms of grandeur and beauty. Exceptional woodwork adorns the balcony and the entrance of the wada, which lends the residential complex a distinct look and beauty. This three-storied structure is one of the most fascinating historical places that you will come across in Pune.  </p></dt>
+  <br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3331950280312!2d73.8511017744304!3d18.513839269381425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06e20750ff1%3A0x2ef3b67bf88d87f!2sVishrambaug%20Wada!5e0!3m2!1sen!2sin!4v1722904839612!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br><br>
+</ol>
+
+<hr>
+<a href="https://www.thrillophilia.com/historical-places-in-pune#:~:text=Places%20in%20Pune-,Historical%20Monuments%20in%20Pune,Bhide%20Wada%20and%20many%20more."target="_blank">
+<hr>
+<div style="background-color: #F7E5D3;">
+  We invite you to enjoy <i> a great experience in the <b>Historical places in Pune</b></i>
+</div>
+Visit our site</a><br>
+</body>
+</html>
