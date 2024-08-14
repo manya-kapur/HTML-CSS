@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      background-color: #F5F5F5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="top-nav">
+  <li="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" role="button" data-bs-target="dropdown" aria-expanded="false">
+      SUBMISSION FORM
+    </a>
+    <div class="dropdown-menu">
+      <li><a class="dropdown-item" href="transport.html">TRANSPORT</a></li>
+      <li><a class="dropdown-item" href="hotel(0).html">HOTELS</a></li>
+      <li><a class="dropdown-item" href="historical(0).html">HISTORICAL PLACES</a></li>
+      <li><a class="dropdown-item" href="college(0).html">COLLEGES</a></li>
+    </div>
+  </li>
+    <div class="container-fluid">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+  <h1 class="head-box">Student Registration Form</h1>
+  <form action="*" class="space">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <i class="fa fa-user"></i>
+      <label for="first_name">First Name</label>
+      <input type="text" id="first_name" name="first_name" required>
+      <br>
+      <i class=" fa fa-user"></i>
+      <label for="last_name">Last Name</label>
+      <input type="text" id="last_name" name="last_name" required>
+      <br>
+      <i class="fa fa-calendar-o"></i>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+      <br>
+      <i class="fa fa-user"></i>
+      <label for="gender"> Gender</label><br><br>
+      
+      <div class="radio-group">
+        <span><i class="fa fa-male"></i> Male</span>
+        <input type="radio" name="gender" value="male" required>
+        <span><i class="fa fa-female"></i> Female</span>
+        <input type="radio" name="gender" value="female" required>
+        <span><i class="fa fa-user"></i> Other</span>
+        <input type="radio" name="gender" value="other" required>
+      </div>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <br>   
+      <i class="fa fa-envelope"></i>   
+      <label for="email"> Email</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <i class="fa fa-phone"></i>
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+      <br>
+      <i class="fa fa-map-marker"></i>
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" required>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Academic Information</legend>
+      <br> 
+      <i class="fa fa-laptop"></i>     
+      <label for="course">Select Course</label>
+      <select id="course" name="course" required>
+        <option value="">Select a course</option>
+        <option value="bachelor_of_science">Bachelor of Science</option>
+        <option value="bachelor_of_arts">Bachelor of Arts</option>
+        <option value="bachelor_of_commerce">Bachelor of Commerce</option>
+        <option value="bachelor_of_engineering">Bachelor of Engineering</option>
+      </select>
+      <br>
+      <i class="fa fa-calendar"></i>
+      <label for="year_of_study">Year of Study</label>
+      <select id="year_of_study" name="year_of_study" required>
+        <option value="">Select year</option>
+        <option value="1st_year">1st Year</option>
+        <option value="2nd_year">2nd Year</option>
+        <option value="3rd_year">3rd Year</option>
+        <option value="4th_year">4th Year</option>
+      </select>
+      <br>
+      <div class="checkbox-group">
+        <span><i class="fa fa-run"></i>Sports</span>
+        <input type="checkbox" name="sports" value="yes">
+        <span>Cultural Activities</span>
+        <input type="checkbox" name="cultural_activities" value="yes">
+        <span>Student Council</span>
+        <input type="checkbox" name="student_council" value="yes">
+      </div>
+    </fieldset>
+    <br>
+    <input type="reset" value="Reset Form">
+    <input type="submit" value="Register">
+  </form>
+</div>
+
+</body>
+</html>
+
