@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pune Transportation Guide</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+  </style>
+  <link rel="stylesheet" href="transport.css">
+</head>
+<body>
+
+  <div class="top-nav">
+    <li="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" role="button" data-bs-target="dropdown" aria-expanded="false">
+        TRANSPORT
+      </a>
+      <div class="dropdown-menu">
+        <li><a class="dropdown-item" href="historical(0).html">HISTORICAL PLACES</a></li>
+        <li><a class="dropdown-item" href="hotel(0).html">HOTELS</a></li>
+        <li><a class="dropdown-item" href="form(0).html">SUBMISSION FORM</a></li>
+        <li><a class="dropdown-item" href="college(0).html">COLLEGES</a></li>
+      </div>
+    </li>
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+
+<div class="sidebar">
+  <a href="#"><img src="C:\Users\dell\Downloads\transport1.jpg" style="width:80%; margin-left: 10%;"></a>
+  <a href="#" onclick="openTab(event, 'home')" class="active"><i class="fa fa-home"></i> Home</a>
+  <a href="#" onclick="openTab(event, 'bus')"><i class="fa fa-bus"></i> Bus</a>
+  <a href="#" onclick="openTab(event, 'auto-rickshaw')"><i class='fas fa-car-side'></i> Auto Rickshaw</a>
+  <a href="#" onclick="openTab(event, 'metro')"><i class="fa fa-subway"></i> Metro</a>
+  <a href="#" onclick="openTab(event, 'taxi')"><i class="fa fa-taxi"></i> Taxi</a>
+  <a href="#" onclick="openTab(event, 'bicycle')"><i class="fa fa-bicycle"></i> Bicycle</a>
+  <a href="#" onclick="openTab(event, 'train')"><i class="fa fa-train"></i> Train</a>
+  <a href="#" onclick="openTab(event, 'train')"><i class="fa fa-plane"></i> Plane</a>
+  <button class="dropdown-btn" onclick="toggleDropdown()">More Transportation 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#" onclick="openTab(event, 'electric-rickshaw')">Electric Rickshaw</a>
+    <a href="#" onclick="openTab(event, 'rental-bikes')">Rental Bikes</a>
+    <a href="#" onclick="openTab(event, 'car-rentals')">Car Rentals</a>
+  </div>
+</div>
+
+<div class="main-content">
+  <div id="home" class="tab-content active">
+    <h1>Pune Transportation Guide</h1>
+    <p>Pune offers a diverse range of transportation modes, catering to the needs of its residents and visitors alike. Each mode provides unique advantages, ensuring that travel across the city is convenient, efficient, and accessible.<br><br>
+        Explore the various modes of transportation available in Pune. Click on the links in the sidebar to learn more about each option.
+        This metropolitan city is a busy hub and its historic background offers numerous places to visit.  While one is here for a vacation then one should not skip any spot. This fabulous place will definitely make your vacation enjoyable. Travelling within the city of Pune is not at all tough, there are lot many options to roam in and around it.
+        The key to any successful trip is choosing the comfortable and convenient mode of transportation. This will help to explore the city very nicely and easily.
+        In Pune, one can easily find auto rickshaws that run on the fare fixed upon the kilometre you travel. The auto rickshaws are easily available and is bit affordable then hiring a personal cab or a taxi. Another easily available and cheapest mode of travel is the state buses that are also a good way to travel from one point to another within the city. In Pune, one can find Pune Darshan buses that take one to every tourist attraction in the city.
+        Another way to travel is through the suburban railway network. These trains are frequent and are better way of transportation to travel in the city. And lastly for a better and comfortable journey, one can hire a cab or a taxi. 
+    </p>
+  </div>
+
+  <div id="bus" class="tab-content">
+    <h2>Bus</h2>
+    <p>Pune's bus service, operated by Pune Mahanagar Parivahan Mahamandal Limited (PMPML), is the backbone of public transportation in the city. With an extensive network that spans urban and suburban areas, PMPML buses are a reliable and economical choice for daily commuters. The fleet includes both non-AC and AC buses, providing a range of comfort levels to suit different needs. Buses are well-suited for longer commutes across the city, connecting major commercial, residential, and educational zones.</p>
+    <p>The Pune Mahanagar Parivahan Mahamandal Limited (PMPML) operates an extensive bus network that connects the city's major hubs and suburbs. The buses are generally reliable, affordable, and run on fixed routes and schedules.</p>
+  </div>
+
+  <div id="auto-rickshaw" class="tab-content">
+    <h2>Auto Rickshaw</h2>
+    <p>Auto rickshaws are a ubiquitous sight on Pune's roads and offer a flexible and quick way to navigate the city. These three-wheeled vehicles are ideal for short to medium distances, especially in congested areas where larger vehicles might struggle. Fares are typically metered, but it's common to negotiate prices, particularly for longer journeys or during peak hours. Auto rickshaws are a go-to option for spontaneous and efficient travel within the city.</p>
+  </div>
+
+  <div id="metro" class="tab-content">
+    <h2>Metro</h2>
+    <p>The Pune Metro is a significant addition to the city’s transport infrastructure, designed to ease traffic congestion and provide a fast, reliable mode of transit. Although still expanding, the metro promises to connect major parts of the city with state-of-the-art trains and modern stations. Once fully operational, it will be a key mode of transport for daily commuters, offering a comfortable and speedy alternative to road travel.</p>
+  </div>
+
+  <div id="taxi" class="tab-content">
+    <h2>Taxi</h2>
+    <p>Taxis are available throughout Pune and can be hailed via various mobile apps. They offer a comfortable and private way to travel.<br>
+        Taxis in Pune, including app-based ride-sharing services like Uber and Ola, offer the convenience of door-to-door travel. These services are especially useful for those who prefer comfort and privacy, as well as for longer trips, airport transfers, or late-night journeys. With the ease of booking through mobile apps and availability of various vehicle options, taxis provide a reliable and hassle-free transportation choice.</p>
+  </div>
+
+  <div id="bicycle" class="tab-content">
+    <h2>Bicycle</h2>
+    <p>Bicycles are a sustainable and healthy way to explore Pune. Several bike-sharing services are available across the city.<br>
+        Cycling is gaining popularity in Pune as a sustainable and healthy mode of transport. The city has been developing cycling tracks and promoting bike-sharing programs to encourage this eco-friendly option. Bicycles are perfect for short commutes, leisurely rides, or exploring scenic areas of Pune. The increasing availability of rental bicycles also makes it easy for residents and visitors to adopt this green mode of transportation.</p>
+  </div>
+
+  <div id="train" class="tab-content">
+    <h2>Train</h2>
+    <p>Trains are a crucial part of Pune's transportation network, connecting the city to nearby towns and cities.<br>
+        Pune's railway station is a major hub, connecting the city to various parts of India. Trains are a preferred option for long-distance travel, offering different classes of service to suit varying comfort levels and budgets. For intra-city travel, suburban trains are available but are less prominent compared to buses and other modes. The railway network is essential for those commuting to nearby cities or traveling across the country.</p>
+  </div>
+
+  <div id="plane" class="tab-content">
+    <h2>Plane</h2>
+    <p>Pune International Airport, located in Lohegaon, serves as the primary air travel hub for the city. The airport connects Pune to major domestic destinations and several international locations. Air travel is the fastest mode of transport for long-distance journeys and is especially convenient for business travelers and tourists visiting Pune from distant regions. The airport is well-connected to the city by various transport options, including taxis and buses.</p>
+  </div>
+
+  <div id="electric-rickshaw" class="tab-content">
+    <h2>Electric Rickshaw</h2>
+    <p>Electric Rickshaws are a new and eco-friendly transportation option available in Pune, offering a green alternative to traditional autos.<br>
+        Electric rickshaws, or e-rickshaws, are an emerging and eco-friendly mode of transport in Pune. These battery-powered vehicles offer a quiet, zero-emission alternative to traditional auto rickshaws. E-rickshaws are gaining popularity for short trips within residential areas and market zones. They provide a sustainable option for urban commuting, contributing to reduced pollution levels in the city.</p>
+  </div>
+
+  <div id="rental-bikes" class="tab-content">
+    <h2>Rental Bikes</h2>
+    <p>Rental bikes are available at various locations in Pune. They offer flexibility and convenience for short trips within the city.<br>
+        Rental bikes are a popular choice for those who prefer the flexibility and convenience of two-wheeler travel without owning a vehicle. Several rental services offer motorbikes and scooters on an hourly or daily basis, making it easy for residents and visitors to navigate Pune’s streets. Rental bikes are particularly advantageous for tourists or anyone needing quick, independent travel across the city.</p>
+  </div>
+
+  <div id="car-rentals" class="tab-content">
+    <h2>Car Rentals</h2>
+    <p>Car rental services are available for those who prefer driving themselves. Various providers offer cars for rent on an hourly or daily basis.<br>
+        Car rentals provide a convenient option for those who prefer the comfort and control of driving their own vehicle while in Pune. Whether for a day trip, business travel, or exploring the city at your own pace, rental cars offer flexibility and privacy. Various rental agencies provide a range of vehicles, from budget-friendly options to luxury cars, catering to different needs and preferences.</p>
+  </div>
+
+  <footer>
+    <p>Footer information goes here</p>
+  </footer>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+  
+      // Hide all tab content
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+  
+      // Remove the active class from all links
+      tablinks = document.querySelectorAll(".sidebar a, .dropdown-container a");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+  
+      // Show the current tab and add the active class to the link
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  
+    function toggleDropdown() {
+      var dropdownContent = document.querySelector(".dropdown-container");
+      dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+    }
+  
+    // Default tab (Home)
+    document.getElementById("home").style.display = "block";
+  </script>
+</body>
+</html>
