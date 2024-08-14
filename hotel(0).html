@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: "Raleway", Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+
+<header class="header-container">
+    
+    <!-- Ensure the image path is correct -->
+    <div id="home">
+    <img src="C:\Users\dell\Downloads\hotel-facade.jpg" alt="The Hotel">
+    <div class="header-content col-lg-6 col-md-8">
+        <h2><i class="fa fa-bed"></i> Hotels in Pune</h2>
+        <form action="/action_page.php" target="_blank">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label><i class="fa fa-calendar-o"></i> Check In</label>
+                    
+                    <input type="date" class="form-control" placeholder="DD MM YYYY" name="CheckIn" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label><i class="fa fa-calendar-o"></i> Check Out</label>
+                    <input type="date" class="form-control" placeholder="DD MM YYYY" name="CheckOut" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label><i class="fa fa-male"></i> Adults</label>
+                    <input type="number" class="form-control" value="0" name="Adults" min="0" max="20">
+                </div>
+                <div class="form-group col-md-6">
+                    <label><i class="fa fa-child"></i> Kids</label>
+                    <input type="number" class="form-control" value="0" name="Kids" min="0" max="20">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-dark"><i class="fa fa-search"></i> Search availability</button>
+        </form>
+    </div>
+    </div>
+</header>
+    <!-- Navbar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" class="logo" href="#"><i class="fa fa-bed"></i> Top Hotels</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <li="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-target="dropdown" aria-expanded="false">
+                            HOTELS
+                        </a>
+                        <div class="dropdown-menu">
+                            <li><a class="dropdown-item" href="transport.html">TRANSPORT</a></li>
+                            <li><a class="dropdown-item" href="historic.html">HISTORICAL PLACES</a></li>
+                            <li><a class="dropdown-item" href="form(0).html">SUBMISSION FORM</a></li>
+                            <li><a class="dropdown-item" href="college(0).html">COLLEGES</a></li>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    
+    <!-- Hotel Sections -->
+    <div id="hotels">
+        <div class="hotel-section">
+            <img src="C:\Users\dell\Downloads\park-central-comfort.jpg" alt="The Central Park Hotel">
+            <div class="info">
+                <h3>The Central Park Hotel</h3>
+                <p class="price">From Rs.5,885</p>
+                <p>Centrally located in the corporate hub with a multiplex in the vicinity, 15 minute drive 
+                    from the airport and 5 minutes from the railway station. The hotel well equipped with all 
+                    modern amenities and facilities like wi-fi, swimming pool, gym, spa, 24 hours room service, 
+                    choice of restaurants, travel assistance, business center, doctor on call, money exchange, 
+                    airport and railway station transfers are complimentary.</p><br>
+                <p>15m<sup>2</sup></p>
+                <div class="features">
+                    <i class="fa fa-bath"></i>
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-wifi"></i>
+                </div>
+                <div class="row-padding large-text center" style="margin: 32px 0;">
+                    <div class="third"><i class="fa fa-map-marker text-red"></i> Bund Garden Road Near Council Hall, Pune 411001 India</div>
+                    <div class="third"><i class="fa fa-phone text-red"></i> Phone: 020 4010 4000</div>
+                    <div class="third"><i class="fa fa-envelope text-red"></i> Email: mail@mail.com</div>
+                </div>
+
+                <a href="#" class="choose-room">Choose Hotel</a>
+            </div>
+        </div>
+    
+        <div class="hotel-section">
+            <img src="C:\Users\dell\Downloads\resort.jpg" alt="Double Room">
+            <div class="info">
+                <h3>The Corinthians Resort & Club</h3>
+                <p class="price">From Rs.7,660</p>
+                <p>The Corinthians is a five-star hotel located in the verdant hilltop of South Pune. Well-appointed Rooms, Executive and Presidential Suites designed in Moroccan architecture, The Corinthians Boutique Hotel reflects the glory of a bygone era, re-created with all minute details, providing all the modern amenities that the business traveler would wish to have. A stay at The Corinthians Resort & Club promises to be a visual and sensual delight, in true sense.</p><br>
+                <p>25m<sup>2</sup></p>
+                <div class="features">
+                    <i class="fa fa-bath"></i>
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-wifi"></i>
+                    <i class="fa fa-tv"></i>
+                </div>
+                <div class="row-padding large-text center" style="margin: 32px 0;">
+                <div class="third"><i class="fa fa-map-marker text-red"></i> Nyati County, NIBM Annex South Pune, Pune 411060 India</div>
+                <div class="third"><i class="fa fa-phone text-red"></i> Phone: 020 2695 2222</div>
+                <div class="third"><i class="fa fa-envelope text-red"></i> Email: mail@mail.com</div>
+                </div>
+                <a href="#" class="choose-room">Choose Hotel</a>
+            </div>
+        </div>
+    
+        <div class="hotel-section">
+            <img src="C:\Users\dell\Downloads\hyatt.jpg" alt="Deluxe Room">
+            <div class="info">
+                <h3>Hyatt Pune</h3>
+                <p class="price">From Rs. 7,616</p>
+                <p>Hyatt Pune is a part of the incredible world of Hyatt. Located just 10 minutes from Pune Airport, 5 minutes from Phoenix Market City, and 15 minutes from the IT hub, Hyatt Pune has the perfect location, whether you’re traveling for work or leisure. Take advantage of our world-class Shanti spa where Ayurvedic treatments, reiki, and yoga relaxes and re-energize you.<br>
+                    There’s something for everyone, with a scenic outdoor pool, garden suites, and round-the-clock room service, you will be spoilt for choice. Our three in-house restaurants- Baan Tao, Café 88, The Terrace Bar and TG's make dining decadent. Baan Tao is an award-winning restaurant, famed for its Thai and Chinese cuisine complemented by the ambiance of unique open-to-sky Thai Sala. </p><br>
+                <p>40m<sup>2</sup></p>
+                <div class="features">
+                    <i class="fa fa-bath"></i>
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-wifi"></i>
+                    <i class="fa fa-tv"></i>
+                    <i class="fa fa-glass"></i>
+                    <i class="fa fa-cutlery"></i>
+                </div>
+                <div class="row-padding large-text center" style="margin: 32px 0;">
+                <div class="third"><i class="fa fa-map-marker text-red"></i> 88 Nagar Road Adjacent to Aga Khan Palace, Pune 411006 India</div>
+                <div class="third"><i class="fa fa-phone text-red"></i> Phone: 020 6726 9522</div>
+                <div class="third"><i class="fa fa-envelope text-red"></i> Email: mail@mail.com</div>
+                </div>
+                <a href="#" class="choose-room">Choose Hotel</a>
+            </div>
+        </div>
+
+        <div class="hotel-section">
+            <img src="C:\Users\dell\Downloads\conrad.jpg" alt="Deluxe Room">
+            <div class="info">
+                <h3>Conrad Pune</h3>
+                <p class="price">From Rs. 14,455</p>
+                <p>The smart luxury and intuitive service of the Conrad Hotels & Resorts brand debuted in India with Conrad Pune. The hotel’s 351 luxurious guest rooms including 20 suites offer the very latest in-room technology and luxuries like signature Conrad amenities, plush bedding and five-fixture marble bathrooms with walk-in rain showers and soak tubs.<br>
+                   Enjoy complimentary Wi-Fi, buffet breakfast, afternoon tea, evening cocktails with hors d’oeuvres; as well as all-day coffee, tea, soft beverages and fresh fruits Conrad Pune features seven trendy dining venues that are among the city’s favourite haunts. Diners can enjoy a wide choice to suite every palate and occasion, from fine Indian cuisine at Zeera and Mediterranean specialties at Coriander Kitchen to Asian treats at the stunning Koji, and from the sophisticated ambiance of the chic bar at Masu to casual dining at the unique poolside café, Kabana, and Pune Sugar Box, the delightful delicatessen and Al Di La. </p>
+                <p>1858.0608<sup>2</sup></p>
+                <div class="features">
+                    <i class="fa fa-bath"></i>
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-wifi"></i>
+                    <i class="fa fa-tv"></i>
+                    <i class="fa fa-glass"></i>
+                    <i class="fa fa-cutlery"></i>
+                </div>
+                <div class="row-padding large-text center" style="margin: 32px 0;">
+                <div class="third"><i class="fa fa-map-marker text-red"></i> 7 Mangaldas Road, Pune 411001 India</div>
+                <div class="third"><i class="fa fa-phone text-red"></i> Phone: 020 6745 6745
+                </div>
+                <div class="third"><i class="fa fa-envelope text-red"></i> Email: mail@mail.com</div>
+                </div>
+                <a href="#" class="choose-room">Choose Hotel</a>
+            </div>
+        </div>
+    </div>
+    <div class="about-section" id="about">
+        <div class="about-image">
+            <img src="C:\Users\dell\Downloads\hotel-facade.jpg" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h3>About</h3>
+            <h6>Welcome to this site, your ultimate resource for finding the perfect hotel in [Area Name]. Whether you're visiting for business, leisure, or a special occasion, we've carefully curated a selection of the best hotels in the area to suit all tastes and budgets. Our platform offers detailed descriptions, up-to-date amenities, and insider tips on each property, ensuring that you have all the information you need to make an informed choice. From luxurious five-star resorts to charming boutique hotels and budget-friendly options, we’ve gathered a diverse range of accommodations to meet your specific needs.<br><br>
+                At this site, we understand that where you stay can greatly influence your overall experience. That’s why we go beyond basic listings to provide you with insights into the local attractions, dining options, and hidden gems near each hotel. Our goal is to help you find not just a place to stay, but a home away from home that enhances your visit to [Area Name]. With easy-to-use filters, genuine guest reviews, and a seamless booking process, we make it simple to discover the ideal hotel that will make your stay in Pune truly memorable.</h6><br>
+            <p>We accept: 
+                <span class="payment-icons">
+                    <i class="fa fa-credit-card fa-lg"></i> 
+                    <i class="fa fa-cc-mastercard fa-lg"></i> 
+                    <i class="fa fa-cc-amex fa-lg"></i> 
+                    <i class="fa fa-cc-visa fa-lg"></i>
+                    <i class="fa fa-cc-paypal fa-lg"></i>
+                </span>
+            </p>
+        </div>
+    </div>
+    
+      <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, do not hesitate to ask them.</p><br>
+        <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+        <p><i class="fa fa-envelope"></i> Email: mail@mail.com</p>
+        <form action="action_page.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="support">Pricing Inquiry</option>
+                <option value="sales">Other Detail</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" placeholder="Write here" required>
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Top Hotels in Pune</p>
+        <h5>Find Us On</h5>
+        <div>
+          <i class="fa fa-facebook-official "></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-snapchat"></i>
+          <i class="fa fa-pinterest-p"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
