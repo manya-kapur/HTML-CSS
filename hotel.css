@@ -33,6 +33,7 @@ body {
     overflow: hidden;
     border-bottom: 1px solid #ccc;
 }
+
 .navbar a {
     float: left;
     display: block;
@@ -50,12 +51,19 @@ body {
 .navbar a.right {
     float: right;
 }
-.d-flex{
-    float: right;
-    background-color:#fff;
+.navbar-brand {
+    font-weight: bold; /* Bold text for brand */
+}
+  
+.nav-link {
+    color: #ccc; /* Light text color for links */
+}
+  
+.nav-link:hover {
+    color: #007bff; /* Blue color on hover */
 }
 .dropdown {
-    float: right;
+    float:left;
     overflow: hidden;
 }
 .dropdown .dropbtn {
@@ -63,22 +71,25 @@ body {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
-    background-color: #333;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: inherit;
     cursor: pointer;
+    margin: 0;
 }
-.dropdown .dropbtn:hover {
-    background-color: #ddd;
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
+    background-color: red;
     color: black;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Drop shadow */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    left: 0; 
 }
 .dropdown-content a {
     float: none;
@@ -89,8 +100,20 @@ body {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #dddddd17;
 }
+.show {
+    display:block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f127; /* Light gray background on hover */
+}
+  
+.navbar-toggler {
+    border: none; /* Remove border from the toggler button */
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
     overflow: scroll;
