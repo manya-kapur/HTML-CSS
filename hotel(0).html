@@ -8,16 +8,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: "Raleway", Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
         }
+
     </style>
     <link rel="stylesheet" href="hotel.css">
 </head>
@@ -59,7 +56,7 @@
 </header>
     <!-- Navbar -->
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" class="logo" href="#"><i class="fa fa-bed"></i> Top Hotels</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,17 +77,17 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
-                    <li="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-target="dropdown" aria-expanded="false">
+                    <ul class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                             HOTELS
                         </a>
-                        <div class="dropdown-menu">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="transport.html">TRANSPORT</a></li>
-                            <li><a class="dropdown-item" href="historic.html">HISTORICAL PLACES</a></li>
+                            <li><a class="dropdown-item" href="historic(0).html">HISTORICAL PLACES</a></li>
                             <li><a class="dropdown-item" href="form(0).html">SUBMISSION FORM</a></li>
                             <li><a class="dropdown-item" href="college(0).html">COLLEGES</a></li>
-                        </div>
-                    </li>
+                        </ul>
+                    </ul>
                 </ul>
             </div>
         </div> 
@@ -100,7 +97,9 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
-    </nav>
+</nav>
+
+    <!--navbar ends here-->
     
     <!-- Hotel Sections -->
     <div id="hotels">
