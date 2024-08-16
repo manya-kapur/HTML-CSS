@@ -17,30 +17,31 @@
 </head>
 <body>
 
-<div class="top-nav">
-  <li="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" role="button" data-bs-target="dropdown" aria-expanded="false">
-      SUBMISSION FORM
-    </a>
-    <div class="dropdown-menu">
-      <li><a class="dropdown-item" href="transport.html">TRANSPORT</a></li>
-      <li><a class="dropdown-item" href="hotel(0).html">HOTELS</a></li>
-      <li><a class="dropdown-item" href="historical(0).html">HISTORICAL PLACES</a></li>
-      <li><a class="dropdown-item" href="college(0).html">COLLEGES</a></li>
+<div class="navbar ">
+
+  <div class="dropdown">
+    
+    <button class="dropbtn" onclick="toggleDropdown('pageDropdown')">Navigate Pages
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="pageDropdown">
+      <a href="hotel(0).html">Hotel</a>
+      <a href="historical(0).html">Historic</a>
+      <a href="college(0).html">College</a>
+      <a href="form(0).html">Form</a>
     </div>
-  </li>
-    <div class="container-fluid">
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
+  </div>
+    <a href="#personal">Personal</a>
+    <a href="#contact">Contact</a>
+    <a href="#academics">Academics</a>
 </div>
+
+
 
 <div class="container">
   <h1 class="head-box">Student Registration Form</h1>
   <form action="*" class="space">
-    <fieldset>
+    <fieldset id="personal">
       <legend>Personal Information</legend>
       <i class="fa fa-user"></i>
       <label for="first_name">First Name</label>
@@ -67,7 +68,7 @@
       </div>
     </fieldset>
     <br>
-    <fieldset>
+    <fieldset id="contact">
       <legend>Contact Information</legend>
       <br>   
       <i class="fa fa-envelope"></i>   
@@ -83,7 +84,7 @@
       <input type="text" id="address" name="address" required>
     </fieldset>
     <br>
-    <fieldset>
+    <fieldset id="academics">
       <legend>Academic Information</legend>
       <br> 
       <i class="fa fa-laptop"></i>     
